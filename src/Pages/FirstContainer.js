@@ -21,13 +21,13 @@ export default function FirstContainer() {
               demographics, and optimize their digital presence.
             </h5>
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <PrimaryButton
                   buttonText="Join Telegram"
                   className={classes.actionBtn}
                 />
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <img
                   src={dummy}
                   alt="dummy"
@@ -47,6 +47,8 @@ export default function FirstContainer() {
             </div>
             <h2>OUR HAPPY CUSTOMER</h2>
             <h5>Our happy customers are at the heart of everything we do</h5>
+            <br />
+            <br />
           </div>
         </div>
       </div>

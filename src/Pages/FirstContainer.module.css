@@ -4,12 +4,11 @@
 
 .title {
   color: white;
-  font-size: 180px;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 500;
+  font-size: 120px;
+  font-family: "Almarai", sans-serif;
   text-align: left;
   margin-top: 30px;
-  line-height: 0.8;
+  line-height: 1;
 }
 
 .dummyContact1 {
