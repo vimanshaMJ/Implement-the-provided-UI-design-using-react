@@ -4,7 +4,7 @@ import FirstContainer from "./FirstContainer";
 
 export default function Homepage() {
   return (
-    <div className={classes.mainContainer}>
+    <div className="container-fluid">
       <FirstContainer />
     </div>
   );

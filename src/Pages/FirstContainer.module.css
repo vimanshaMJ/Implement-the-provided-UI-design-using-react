@@ -1,5 +1,9 @@
 .firstContainer {
   justify-content: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #7349ff;
 }
 
 .title {
@@ -41,4 +45,26 @@
   width: 35%;
   top: 40%;
   left: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 80px; /* Adjust font size for medium-sized screens */
+  }
+
+  .img2 {
+    max-width: 800px; /* Adjust the maximum width for medium-sized screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .title {
+    font-size: 120px; /* Adjust font size for larger screens */
+  }
+
+  .img2 {
+    max-width: 1000px; /* Adjust the maximum width for larger screens */
+  }
 }
