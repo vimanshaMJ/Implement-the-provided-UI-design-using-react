@@ -1,0 +1,21 @@
+.actionButton {
+  background-color: #de640d;
+  margin: 20px 0;
+  width: 140px;
+  height: 50px;
+  border-radius: 60px;
+  color: #e8e1ff;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease-in-out;
+}
+.actionButton:hover {
+  transform: scale(1.1);
+  background-color: #de640d;
+}
+
+@media (max-width: 480px) {
+  .actionButton {
+    width: 120px;
+  }
+}
