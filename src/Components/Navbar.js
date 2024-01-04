@@ -8,19 +8,34 @@ import PrimaryButton from "./PrimaryButton";
 
 export default function TheNavbar() {
   return (
-    <Navbar>
-      <Container className={classes.container}>
-        <Nav.Link href="#logo">
+    <Navbar expand="md" className={classes.container}>
+      <Container>
+        <Navbar.Brand href="#logo">
           <img src={logo} alt="Logo" />
-        </Nav.Link>
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#About Us">About Us</Nav.Link>
-        <Nav.Link href="#Tokenomics">Tokenomics</Nav.Link>
-        <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
-        <Nav.Link href="#FAQ">FAQ</Nav.Link>
-        <Nav.Link href="btn">
-          <PrimaryButton buttonText="Buy Token" />
-        </Nav.Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mx-auto">
+            <Nav.Link href="#home" className={classes.text}>
+              Home
+            </Nav.Link>
+            <Nav.Link href="#About Us" className={classes.text}>
+              About Us
+            </Nav.Link>
+            <Nav.Link href="#Tokenomics" className={classes.text}>
+              Tokenomics
+            </Nav.Link>
+            <Nav.Link href="#Roadmap" className={classes.text}>
+              Roadmap
+            </Nav.Link>
+            <Nav.Link href="#FAQ" className={classes.text}>
+              FAQ
+            </Nav.Link>
+          </Nav>
+          <Nav.Link href="btn">
+            <PrimaryButton buttonText="Buy Token" />
+          </Nav.Link>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
