@@ -1,0 +1,95 @@
+.firstContainer {
+  position: relative;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #7349ff;
+}
+
+.title {
+  color: white;
+  font-size: 7.5rem;
+  font-family: "Almarai", sans-serif;
+  text-align: left;
+  margin-top: 30px;
+  line-height: 1;
+}
+
+.dummyContact1 {
+  width: 45px;
+  border-radius: 100%;
+  margin-top: 1.5%;
+  position: absolute;
+  left: 360px;
+}
+.dummyContact2 {
+  width: 45px;
+  border-radius: 100%;
+  margin-top: 1.5%;
+  position: absolute;
+  left: 390px;
+}
+.dummyContact3 {
+  width: 45px;
+  border-radius: 100%;
+  margin-top: 1.5%;
+  position: absolute;
+  left: 420px;
+}
+.actionBtn {
+  justify-content: left;
+  width: 100%;
+}
+.img2 {
+  position: absolute;
+  width: 35%;
+  top: 40%;
+  left: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 6rem;
+  }
+  .img2 {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 5rem;
+    text-align: center;
+  }
+  .img2 {
+    position: inherit;
+    width: 50%;
+  }
+  .text {
+    text-align: center;
+  }
+
+  .dummyContact1 {
+    top: 71.5%;
+    left: 55%;
+  }
+  .dummyContact2 {
+    top: 71.5%;
+    left: 59%;
+  }
+  .dummyContact3 {
+    top: 71.5%;
+    left: 63%;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 3rem;
+  }
+  .firstContainer {
+    padding: 0 5%;
+  }
+}
