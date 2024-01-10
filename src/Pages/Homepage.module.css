@@ -51,15 +51,15 @@
 }
 @media (max-width: 1200px) {
   .dummyContact1 {
-    top: 70%;
+    top: 61.5%;
     left: 30%;
   }
   .dummyContact2 {
-    top: 70%;
+    top: 61.5%;
     left: 33%;
   }
   .dummyContact3 {
-    top: 70%;
+    top: 61.5%;
     left: 36%;
   }
 }
@@ -72,15 +72,15 @@
     width: 40%;
   }
   .dummyContact1 {
-    top: 69%;
+    top: 58%;
     left: 30%;
   }
   .dummyContact2 {
-    top: 69%;
+    top: 58%;
     left: 33%;
   }
   .dummyContact3 {
-    top: 69%;
+    top: 58%;
     left: 36%;
   }
 }
@@ -134,4 +134,25 @@
   .actionBtn {
     width: 100% !important;
   }
+}
+
+.secondContainer {
+  background-color: #000319;
+}
+.backgroundCircle {
+  margin-bottom: -10%;
+}
+.arrowBtn {
+  width: 15rem;
+  height: 15rem;
+  background-color: #000319;
+  border-width: 0px;
+  border-radius: 100%;
+}
+.downArrow {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  background-color: #7349ff;
+  padding: 18%;
 }

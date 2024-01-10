@@ -4,6 +4,7 @@ import TheNavbar from "../Components/Navbar";
 import PrimaryButton from "../Components/PrimaryButton";
 import dummy from "../Images/dummy-contact.jpeg";
 import img2 from "../Images/image-1.png";
+import downArrow from "../Images/down-arrow.png";
 
 export default function Homepage() {
   return (
@@ -56,7 +57,23 @@ export default function Homepage() {
             </div>
           </div>
         </div>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col">
+              <div className={classes.backgroundCircle}>
+                <button className={classes.arrowBtn}>
+                  <img
+                    src={downArrow}
+                    alt="down-arrow"
+                    className={classes.downArrow}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div className={classes.secondContainer}></div>
     </div>
   );
 }
