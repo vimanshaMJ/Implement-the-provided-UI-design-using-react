@@ -23,13 +23,13 @@ export default function Homepage() {
                 specific demographics, and optimize their digital presence.
               </h5>
               <div className="row">
-                <div className="col-md-3 col-sm-10">
+                <div className="col-md-3 col-sm-12">
                   <PrimaryButton
                     buttonText="Join Telegram"
                     className={classes.actionBtn}
                   />
                 </div>
-                <div className="col-md-3 col-sm-10">
+                <div className="col-md-3">
                   <img
                     src={dummy}
                     alt="dummy"
