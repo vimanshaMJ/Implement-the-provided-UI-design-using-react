@@ -51,15 +51,15 @@
 }
 @media (max-width: 1200px) {
   .dummyContact1 {
-    top: 61.5%;
+    top: 64.8%;
     left: 30%;
   }
   .dummyContact2 {
-    top: 61.5%;
+    top: 64.8%;
     left: 33%;
   }
   .dummyContact3 {
-    top: 61.5%;
+    top: 64.8%;
     left: 36%;
   }
 }
@@ -72,15 +72,15 @@
     width: 40%;
   }
   .dummyContact1 {
-    top: 58%;
+    top: 63%;
     left: 30%;
   }
   .dummyContact2 {
-    top: 58%;
+    top: 63%;
     left: 33%;
   }
   .dummyContact3 {
-    top: 58%;
+    top: 63%;
     left: 36%;
   }
 }
@@ -143,16 +143,59 @@
   margin-bottom: -10%;
 }
 .arrowBtn {
-  width: 15rem;
-  height: 15rem;
+  width: 14rem;
+  height: 14rem;
   background-color: #000319;
   border-width: 0px;
   border-radius: 100%;
 }
 .downArrow {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 100%;
   background-color: #7349ff;
-  padding: 18%;
+  padding: 50px;
+}
+@media (max-width: 1400px) {
+  .backgroundCircle {
+    margin-bottom: -12%;
+  }
+}
+@media (max-width: 1200px) {
+  .backgroundCircle {
+    margin-bottom: -15%;
+  }
+  .downArrow {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media (max-width: 992px) {
+  .arrowBtn {
+    width: 12rem;
+    height: 12rem;
+  }
+  .downArrow {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+@media (max-width: 768px) {
+  .backgroundCircle {
+    margin-bottom: -20%;
+  }
+}
+@media (max-width: 576px) {
+  .backgroundCircle {
+    margin-bottom: -25%;
+  }
+  .arrowBtn {
+    width: 10rem;
+    height: 10rem;
+  }
+  .downArrow {
+    width: 7rem;
+    height: 7rem;
+    padding: 30px;
+  }
 }

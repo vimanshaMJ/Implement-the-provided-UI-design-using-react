@@ -32,7 +32,7 @@ export default function TheNavbar() {
               FAQ
             </Nav.Link>
           </Nav>
-          <Nav.Link href="btn">
+          <Nav.Link href="#btn">
             <PrimaryButton buttonText="Buy Token" />
           </Nav.Link>
         </Navbar.Collapse>

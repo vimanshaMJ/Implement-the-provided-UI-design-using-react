@@ -73,7 +73,16 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-      <div className={classes.secondContainer}></div>
+      <div className={classes.secondContainer}>
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <h1>Hello</h1>
+              <h1>World</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
