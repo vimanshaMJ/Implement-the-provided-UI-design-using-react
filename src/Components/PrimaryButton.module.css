@@ -20,9 +20,3 @@
   background-color: #de640d;
   color: #e8e1ff;
 }
-
-@media (max-width: 480px) {
-  .actionButton {
-    width: 120px;
-  }
-}
