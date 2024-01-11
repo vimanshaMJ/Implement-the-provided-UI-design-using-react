@@ -10,7 +10,7 @@
   width: 140px;
   height: 50px;
   border-radius: 60px;
-  color: #e8e1ff;
+  color: white;
   outline: none !important;
   box-shadow: none !important;
   transition: all 0.2s ease-in-out;
@@ -18,7 +18,7 @@
 .actionButton:hover {
   transform: scale(1.1);
   background-color: #de640d;
-  color: #e8e1ff !important;
+  color: white !important;
 }
 
 @media (max-width: 480px) {

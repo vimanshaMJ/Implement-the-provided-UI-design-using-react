@@ -85,7 +85,7 @@ export default function Homepage() {
               className="col-lg-6 col-md-12"
               style={{
                 alignSelf: "center",
-                padding: "0 50px",
+                padding: "0 60px",
               }}
             >
               <SecondaryActionButton buttonText="ABOUT US" />
