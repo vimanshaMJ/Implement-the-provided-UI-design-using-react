@@ -42,7 +42,7 @@
   width: 100%;
 }
 
-.img2 {
+.img1 {
   position: absolute;
   width: 35%;
   top: 40%;
@@ -69,7 +69,7 @@
   .title {
     font-size: 6rem;
   }
-  .img2 {
+  .img1 {
     width: 40%;
   }
   .dummyContact1 {
@@ -90,7 +90,7 @@
     font-size: 5rem;
     text-align: center;
   }
-  .img2 {
+  .img1 {
     position: inherit;
     width: 50%;
   }
@@ -137,9 +137,6 @@
   }
 }
 
-.secondContainer {
-  background-color: #000319;
-}
 .backgroundCircle {
   margin-bottom: -10%;
 }
@@ -199,4 +196,21 @@
     height: 7rem;
     padding: 30px;
   }
+}
+
+.secondContainer {
+  background-color: #000319;
+  background-image: linear-gradient(to right, #000319 30%, #010b51 100%);
+  padding-top: 150px;
+}
+.paragraph1 {
+  font-size: large;
+  line-height: 1.8;
+}
+span {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+.actionBtn2 {
+  width: 100% !important;
 }

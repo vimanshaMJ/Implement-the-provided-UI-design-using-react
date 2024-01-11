@@ -3,8 +3,10 @@ import classes from "./Homepage.module.css";
 import TheNavbar from "../Components/Navbar";
 import PrimaryButton from "../Components/PrimaryButton";
 import dummy from "../Images/dummy-contact.jpeg";
-import img2 from "../Images/image-1.png";
+import img1 from "../Images/image-1.png";
+import img2 from "../Images/image-2.png";
 import downArrow from "../Images/down-arrow.png";
+import SecondaryActionButton from "../Components/SecondaryButton";
 
 export default function Homepage() {
   return (
@@ -15,7 +17,7 @@ export default function Homepage() {
             <div className="col-md-12">
               <TheNavbar />
               <h1 className={classes.title}>MARKETING MAKING WITH XMM</h1>
-              <img src={img2} alt="img2" className={classes.img2} />
+              <img src={img1} alt="img1" className={classes.img1} />
             </div>
 
             <div className="col-md-6">
@@ -76,9 +78,54 @@ export default function Homepage() {
       <div className={classes.secondContainer}>
         <div className="container">
           <div className="row">
-            <div className="col">
-              <h1>Hello</h1>
-              <h1>World</h1>
+            <div className="col-md-6 col-sm-12">
+              <img src={img2} alt="down-arrow" className={classes.img2} />
+            </div>
+            <div className="col-md-6 col-sm-12" style={{ alignSelf: "center" }}>
+              <SecondaryActionButton buttonText="ABOUT US" />
+              <h1 className={classes.title2}>
+                Best Ever Token Designed For Remarkable Success
+              </h1>
+              <p className={classes.paragraph1}>
+                The main advantage of supporting $XMM is the project is focused
+                on creating Volume and Market Making through. XMM empowers
+                businesses to creative dynamic content target specific
+              </p>
+              <div className="container">
+                <div className="row">
+                  <div className="col-4">
+                    <h5 className={classes.checkText}>
+                      <span className="material-symbols-outlined">
+                        select_check_box
+                      </span>
+                      Market
+                    </h5>
+                  </div>
+                  <div className="col-4">
+                    <h5 className={classes.checkText}>
+                      <span className="material-symbols-outlined">
+                        select_check_box
+                      </span>
+                      Volume
+                    </h5>
+                  </div>
+                  <div className="col-4">
+                    <h5 className={classes.checkText}>
+                      <span className="material-symbols-outlined">
+                        select_check_box
+                      </span>
+                      Trend
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-4">
+                <PrimaryButton
+                  buttonText="Read Whitepaper"
+                  className={classes.actionBtn2}
+                />
+              </div>
             </div>
           </div>
         </div>
