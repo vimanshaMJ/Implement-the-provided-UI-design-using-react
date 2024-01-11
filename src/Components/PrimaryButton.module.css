@@ -18,7 +18,7 @@
 .actionButton:hover {
   transform: scale(1.1);
   background-color: #de640d;
-  color: #e8e1ff;
+  color: #e8e1ff !important;
 }
 
 @media (max-width: 480px) {
