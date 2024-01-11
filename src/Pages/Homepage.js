@@ -78,10 +78,16 @@ export default function Homepage() {
       <div className={classes.secondContainer}>
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-sm-12">
+            <div className="col-lg-6 col-md-12">
               <img src={img2} alt="down-arrow" className={classes.img2} />
             </div>
-            <div className="col-md-6 col-sm-12" style={{ alignSelf: "center" }}>
+            <div
+              className="col-lg-6 col-md-12"
+              style={{
+                alignSelf: "center",
+                padding: "0 50px",
+              }}
+            >
               <SecondaryActionButton buttonText="ABOUT US" />
               <h1 className={classes.title2}>
                 Best Ever Token Designed For Remarkable Success
