@@ -199,7 +199,6 @@
 }
 
 .secondContainer {
-  background-color: #000319;
   background-image: linear-gradient(to right, #000319 30%, #010b51 100%);
   padding-top: 150px;
 }
@@ -213,4 +212,12 @@ span {
 }
 .actionBtn2 {
   width: 100% !important;
+}
+
+.thirdContainer {
+  padding-top: 100px;
+  background-image: linear-gradient(to right, #000319 10%, #010b51 100%);
+}
+.card1 {
+  margin-left: -10px;
 }

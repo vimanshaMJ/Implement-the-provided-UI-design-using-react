@@ -89,9 +89,7 @@ export default function Homepage() {
               }}
             >
               <SecondaryActionButton buttonText="ABOUT US" />
-              <h1 className={classes.title2}>
-                Best Ever Token Designed For Remarkable Success
-              </h1>
+              <h1>Best Ever Token Designed For Remarkable Success</h1>
               <p className={classes.paragraph1}>
                 The main advantage of supporting $XMM is the project is focused
                 on creating Volume and Market Making through. XMM empowers
@@ -132,6 +130,30 @@ export default function Homepage() {
                   className={classes.actionBtn2}
                 />
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={classes.thirdContainer}>
+        <div className="container">
+          <div className="row" style={{ border: "solid" }}>
+            <div className="col-lg-3" style={{ border: "solid" }}>
+              <div className={classes.card1}>
+                <SecondaryActionButton buttonText="FEATURES" />
+                <h1>Features Of X MARKET MARKER</h1>
+              </div>
+            </div>
+            <div className="col-lg-3" style={{ border: "solid" }}>
+              <SecondaryActionButton buttonText="FEATURES" />
+              <h5>Features Of X MARKET MARKER</h5>
+            </div>
+            <div className="col-lg-3" style={{ border: "solid" }}>
+              <SecondaryActionButton buttonText="FEATURES" />
+              <h5>Features Of X MARKET MARKER</h5>
+            </div>
+            <div className="col-lg-3" style={{ border: "solid" }}>
+              <SecondaryActionButton buttonText="FEATURES" />
+              <h5>Features Of X MARKET MARKER</h5>
             </div>
           </div>
         </div>
