@@ -352,6 +352,22 @@ export default function Homepage() {
           </div>
         </div>
       </div>
+      <div className={classes.fifthContainer}>
+        <div className="container">
+          <div className="row justify-content-center ">
+            <div className="col-md-7">
+              <SecondaryActionButton
+                buttonText="Tokenomics"
+                className={classes.tokenmicsBtn}
+              />
+              <h1 className={classes.tokenText1}>
+                Token Investment Strategies
+              </h1>
+              <h1 className={classes.tokenText2}>Token Valuation Models</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

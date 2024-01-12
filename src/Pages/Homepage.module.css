@@ -252,7 +252,12 @@ span {
 .fourthContainer {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: linear-gradient(to right, #000319 40%, #010b51 100%);
+  background-image: linear-gradient(
+    to right,
+    #12082e 0%,
+    #000319 31%,
+    #010b51 100%
+  );
 }
 .partnerTitle {
   margin: 20px 0 60px 0;
@@ -263,4 +268,21 @@ span {
   height: auto;
   margin: 30px 0;
   padding: 15px;
+}
+
+.fifthContainer {
+  background-image: linear-gradient(
+    to right,
+    #010b51 0%,
+    #12082e 45%,
+    #000319 100%
+  );
+  height: 500px;
+}
+.tokenmicsBtn {
+  margin-top: 60px;
+}
+.tokenText2 {
+  text-align: right;
+  line-height: 0;
 }
