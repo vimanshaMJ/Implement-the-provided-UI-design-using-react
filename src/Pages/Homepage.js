@@ -10,6 +10,14 @@ import downArrow from "../Images/down-arrow.png";
 import cardImg1 from "../Images/card-img-1.png";
 import cardImg2 from "../Images/card-img-2.png";
 import cardImg3 from "../Images/card-img-3.png";
+import dexview from "../Images/DEXView.png";
+import amazon from "../Images/amazon.png";
+import perrigo from "../Images/perrigo.png";
+import molex from "../Images/molex.png";
+import pinksale from "../Images/pinksale.png";
+import skai from "../Images/skai.png";
+import oracle from "../Images/oracle.png";
+import ebay from "../Images/ebay.png";
 
 export default function Homepage() {
   return (
@@ -225,10 +233,122 @@ export default function Homepage() {
       </div>
 
       <div className={classes.fourthContainer}>
-        <div className="container" style={{ border: "solid" }}>
+        <div className="container">
           <div className="row justify-content-center">
             <SecondaryActionButton buttonText="PARTNER" />
             <h1 className={classes.partnerTitle}>Our Partner</h1>
+          </div>
+          <div className="container justify-content-center">
+            <div className="row justify-content-center">
+              <div
+                className="col-md-3 col-sm-4"
+                style={{
+                  border: "solid 3px",
+                  borderColor: "#1f2238",
+                  borderTop: "none",
+                  borderLeft: "none",
+                }}
+              >
+                <img
+                  src={dexview}
+                  alt="dexview"
+                  className={classes.partnerImg}
+                ></img>
+              </div>
+              <div
+                className="col-md-3"
+                style={{
+                  border: "solid 3px",
+                  borderColor: "#1f2238",
+                  borderTop: "none",
+                  borderLeft: "none",
+                }}
+              >
+                <img
+                  src={amazon}
+                  alt="amazon"
+                  className={classes.partnerImg}
+                ></img>
+              </div>
+              <div
+                className="col-md-3"
+                style={{
+                  border: "solid 3px",
+                  borderColor: "#1f2238",
+                  borderTop: "none",
+                  borderLeft: "none",
+                }}
+              >
+                <img
+                  src={perrigo}
+                  alt="perrigo"
+                  className={classes.partnerImg}
+                ></img>
+              </div>
+              <div
+                className="col-md-3"
+                style={{
+                  border: "solid 3px",
+                  borderColor: "#1f2238",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderRight: "none",
+                }}
+              >
+                <img
+                  src={molex}
+                  alt="molex"
+                  className={classes.partnerImg}
+                ></img>
+              </div>
+              <div
+                className="col-md-3"
+                style={{
+                  border: "solid 3px",
+                  borderColor: "#1f2238",
+                  borderTop: "none",
+                  borderBottom: "none",
+                  borderLeft: "none",
+                }}
+              >
+                <img
+                  src={pinksale}
+                  alt="pinksale"
+                  className={classes.partnerImg}
+                ></img>
+              </div>
+              <div
+                className="col-md-3"
+                style={{
+                  border: "solid 3px",
+                  borderColor: "#1f2238",
+                  borderTop: "none",
+                  borderBottom: "none",
+                  borderLeft: "none",
+                }}
+              >
+                <img src={skai} alt="skai" className={classes.partnerImg}></img>
+              </div>
+              <div
+                className="col-md-3"
+                style={{
+                  border: "solid 3px",
+                  borderColor: "#1f2238",
+                  borderTop: "none",
+                  borderBottom: "none",
+                  borderLeft: "none",
+                }}
+              >
+                <img
+                  src={oracle}
+                  alt="oracle"
+                  className={classes.partnerImg}
+                ></img>
+              </div>
+              <div className="col-md-3">
+                <img src={ebay} alt="ebay" className={classes.partnerImg}></img>
+              </div>
+            </div>
           </div>
         </div>
       </div>
