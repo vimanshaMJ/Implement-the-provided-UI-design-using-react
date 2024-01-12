@@ -154,9 +154,8 @@ export default function Homepage() {
                 <div
                   className="col-md-4 col-sm-6"
                   style={{
-                    border: "inset 0.1px",
+                    border: "solid 0.1px",
                     borderColor: "#1f2238",
-                    borderRight: "none",
                   }}
                 >
                   <div className={classes.card1}>
@@ -178,9 +177,8 @@ export default function Homepage() {
                 <div
                   className="col-md-4 col-sm-6"
                   style={{
-                    border: "inset 0.1px",
+                    border: "solid 0.1px",
                     borderColor: "#1f2238",
-                    borderRight: "none",
                   }}
                 >
                   <div className={classes.card2}>
@@ -201,7 +199,7 @@ export default function Homepage() {
                 <div
                   className="col-md-4 col-sm-6"
                   style={{
-                    border: "inset 0.1px",
+                    border: "solid 0.1px",
                     borderColor: "#1f2238",
                   }}
                 >
