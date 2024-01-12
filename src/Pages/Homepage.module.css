@@ -216,8 +216,34 @@ span {
 
 .thirdContainer {
   padding-top: 100px;
-  background-image: linear-gradient(to right, #000319 10%, #010b51 100%);
+  padding-bottom: 100px;
+  background-image: linear-gradient(to right, #000319 40%, #010b51 100%);
+}
+.featureText {
+  padding-top: 30%;
+  padding-right: 35%;
 }
 .card1 {
-  margin-left: -10px;
+  padding: 10px 10px;
+  margin: 0 -15px;
+}
+.card2 {
+  padding: 10px 10px;
+  margin: 0 -10px;
+}
+.card3 {
+  padding: 10px 10px;
+  margin: 0 -15px;
+}
+.cardImg {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 80px;
+  float: left;
+}
+.cardText {
+  display: inline-flex;
+  font-size: small;
+  padding-right: 18%;
 }

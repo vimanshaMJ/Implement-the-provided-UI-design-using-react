@@ -2,11 +2,14 @@ import React from "react";
 import classes from "./Homepage.module.css";
 import TheNavbar from "../Components/Navbar";
 import PrimaryButton from "../Components/PrimaryButton";
+import SecondaryActionButton from "../Components/SecondaryButton";
 import dummy from "../Images/dummy-contact.jpeg";
 import img1 from "../Images/image-1.png";
 import img2 from "../Images/image-2.png";
 import downArrow from "../Images/down-arrow.png";
-import SecondaryActionButton from "../Components/SecondaryButton";
+import cardImg1 from "../Images/card-img-1.png";
+import cardImg2 from "../Images/card-img-2.png";
+import cardImg3 from "../Images/card-img-3.png";
 
 export default function Homepage() {
   return (
@@ -98,7 +101,7 @@ export default function Homepage() {
               <div className="container">
                 <div className="row">
                   <div className="col-4">
-                    <h5 className={classes.checkText}>
+                    <h5>
                       <span className="material-symbols-outlined">
                         select_check_box
                       </span>
@@ -106,7 +109,7 @@ export default function Homepage() {
                     </h5>
                   </div>
                   <div className="col-4">
-                    <h5 className={classes.checkText}>
+                    <h5>
                       <span className="material-symbols-outlined">
                         select_check_box
                       </span>
@@ -114,7 +117,7 @@ export default function Homepage() {
                     </h5>
                   </div>
                   <div className="col-4">
-                    <h5 className={classes.checkText}>
+                    <h5>
                       <span className="material-symbols-outlined">
                         select_check_box
                       </span>
@@ -136,24 +139,88 @@ export default function Homepage() {
       </div>
       <div className={classes.thirdContainer}>
         <div className="container">
-          <div className="row" style={{ border: "solid" }}>
-            <div className="col-lg-3" style={{ border: "solid" }}>
-              <div className={classes.card1}>
-                <SecondaryActionButton buttonText="FEATURES" />
-                <h1>Features Of X MARKET MARKER</h1>
+          <div className="row">
+            <div className="col-lg-4">
+              <SecondaryActionButton buttonText="FEATURES" />
+              <h1>Features Of X MARKET MARKER</h1>
+              <p className={classes.featureText}>
+                X Market Marker offers a comphehensive set of features tailorde
+                for market participants. Its core functionalities include
+                real-time pricing, liquidity.
+              </p>
+            </div>
+            <div className="col-lg-8">
+              <div className="row justify-content-center">
+                <div
+                  className="col-md-4 col-sm-6"
+                  style={{
+                    border: "inset 0.1px",
+                    borderColor: "#1f2238",
+                    borderRight: "none",
+                  }}
+                >
+                  <div className={classes.card1}>
+                    <h5>01</h5>
+                    <h5>Benifits For Holders</h5>
+                    <img
+                      src={cardImg1}
+                      alt="card-img-1"
+                      className={classes.cardImg}
+                    />
+                    <p className={classes.cardText}>
+                      We aim to increase the value of our currency to benifit
+                      our community. Market Making will be key focus. We aim to
+                      inncrease the value of our currency to benifit our
+                      community.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="col-md-4 col-sm-6"
+                  style={{
+                    border: "inset 0.1px",
+                    borderColor: "#1f2238",
+                    borderRight: "none",
+                  }}
+                >
+                  <div className={classes.card2}>
+                    <h5>02</h5>
+                    <h5>Biggest Community</h5>
+                    <img
+                      src={cardImg2}
+                      alt="card-img-2"
+                      className={classes.cardImg}
+                    />
+                    <p className={classes.cardText}>
+                      XMM is the First ever Crypto with the market making
+                      objective that's being worked upon at such amazing level!.
+                      We will focus on community building a lot for that.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="col-md-4 col-sm-6"
+                  style={{
+                    border: "inset 0.1px",
+                    borderColor: "#1f2238",
+                  }}
+                >
+                  <div className={classes.card3}>
+                    <h5>03</h5>
+                    <h5>Ecosystem - Redefined</h5>
+                    <img
+                      src={cardImg3}
+                      alt="card-img-3"
+                      className={classes.cardImg}
+                    />
+                    <p className={classes.cardText}>
+                      Our powerful token will protect our holders from the
+                      turbulence of the crypto market and help them hold despite
+                      the uncertainty of the market..
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-3" style={{ border: "solid" }}>
-              <SecondaryActionButton buttonText="FEATURES" />
-              <h5>Features Of X MARKET MARKER</h5>
-            </div>
-            <div className="col-lg-3" style={{ border: "solid" }}>
-              <SecondaryActionButton buttonText="FEATURES" />
-              <h5>Features Of X MARKET MARKER</h5>
-            </div>
-            <div className="col-lg-3" style={{ border: "solid" }}>
-              <SecondaryActionButton buttonText="FEATURES" />
-              <h5>Features Of X MARKET MARKER</h5>
             </div>
           </div>
         </div>
