@@ -216,12 +216,13 @@ span {
 
 .thirdContainer {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   background-image: linear-gradient(to right, #000319 40%, #010b51 100%);
 }
 .featureText {
+  font-size: large;
   padding-top: 30%;
-  padding-right: 35%;
+  padding-right: 28%;
 }
 .card1 {
   padding: 10px 10px;
@@ -246,4 +247,14 @@ span {
   display: inline-flex;
   font-size: small;
   padding-right: 18%;
+}
+
+.fourthContainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(to right, #000319 40%, #010b51 100%);
+}
+.partnerTitle {
+  margin: 30px 0;
+  text-align: center;
 }

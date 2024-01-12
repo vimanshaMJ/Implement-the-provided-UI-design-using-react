@@ -223,6 +223,15 @@ export default function Homepage() {
           </div>
         </div>
       </div>
+
+      <div className={classes.fourthContainer}>
+        <div className="container" style={{ border: "solid" }}>
+          <div className="row justify-content-center">
+            <SecondaryActionButton buttonText="PARTNER" />
+            <h1 className={classes.partnerTitle}>Our Partner</h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
