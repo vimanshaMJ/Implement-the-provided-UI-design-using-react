@@ -6,6 +6,7 @@ import SecondaryActionButton from "../Components/SecondaryButton";
 import dummy from "../Images/dummy-contact.jpeg";
 import img1 from "../Images/image-1.png";
 import img2 from "../Images/image-2.png";
+import img3 from "../Images/image-3.png";
 import downArrow from "../Images/down-arrow.png";
 import cardImg1 from "../Images/card-img-1.png";
 import cardImg2 from "../Images/card-img-2.png";
@@ -355,7 +356,7 @@ export default function Homepage() {
       <div className={classes.fifthContainer}>
         <div className="container">
           <div className="row justify-content-center ">
-            <div className="col-md-7">
+            <div className="col-lg-7">
               <SecondaryActionButton
                 buttonText="Tokenomics"
                 className={classes.tokenmicsBtn}
@@ -364,6 +365,37 @@ export default function Homepage() {
                 Token Investment Strategies
               </h1>
               <h1 className={classes.tokenText2}>Token Valuation Models</h1>
+            </div>
+          </div>
+          <div className="row">
+            <div className={classes.liqudity}>
+              <h3 className={classes.tokenomicsTpic}>LIQUIDITY</h3>
+              <p>
+                Token investments strategies involve various approaches for
+                individuals and organizationas to make informed decisions when
+                buying and holding cryptocurrencies or blockchain tokens.
+              </p>
+            </div>
+            <img src={img3} alt="img3" className={classes.img3}></img>
+            <div className={classes.marketing}>
+              <h3 className={classes.tokenomicsTpic}>MARKETING</h3>
+              <p>
+                Token investments strategies involve various approaches for
+                individuals and organizationas to make informed decisions last
+                moment.
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-7">
+              <div className={classes.buybacks}>
+                <h3 className={classes.tokenomicsTpic}>BUYBACKS</h3>
+                <p>
+                  Token investments strategies involve various approaches for
+                  individuals and organizationas to make informed decisions
+                  blockchain tokens.
+                </p>
+              </div>
             </div>
           </div>
         </div>
