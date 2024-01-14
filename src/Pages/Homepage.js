@@ -472,9 +472,9 @@ export default function Homepage({ ...props }) {
       </div>
       <div className={classes.seventhContainer}>
         <div className={`container ${classes.middleContainer}`} {...props}>
-          <div className="row" style={{ border: "solid" }}>
-            <div className="col-lg-4" style={{ border: "solid" }}>
-              <p>
+          <div className="row">
+            <div className="col-lg-5">
+              <p className={classes.lastPara}>
                 X Market Marker offers a comprehensive set of features tailored
                 for market participants. Its core functionalities include
                 real-time pricing, liquidity provisio, and order book
@@ -482,8 +482,10 @@ export default function Homepage({ ...props }) {
               </p>
               <img src={img5} alt="img5" className={classes.img5}></img>
             </div>
-            <div className="col-lg-4" style={{ border: "solid" }}></div>
-            <div className="col-lg-4" style={{ border: "solid" }}></div>
+            <div className="col-lg-3 d-grid align-items-center">
+              <h1 className={classes.joinCommunity}>Join The Community</h1>
+            </div>
+            <div className="col-lg-4"></div>
           </div>
         </div>
       </div>

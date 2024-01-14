@@ -354,3 +354,11 @@ span {
   padding: 2% 2%;
   border-radius: 20px;
 }
+.lastPara {
+  padding: 0 5%;
+}
+.joinCommunity {
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
