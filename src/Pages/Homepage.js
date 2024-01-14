@@ -22,7 +22,7 @@ import oracle from "../Images/oracle.png";
 import ebay from "../Images/ebay.png";
 import TheDropdown from "../Components/DropDown";
 
-export default function Homepage() {
+export default function Homepage({ ...props }) {
   return (
     <div className="container-fluid">
       <div className={classes.firstContainer}>
@@ -405,7 +405,7 @@ export default function Homepage() {
       <div className={classes.sixthContainer}>
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className={`col-md-6 ${classes.faqRow}`} {...props}>
               <SecondaryActionButton
                 buttonText="FAQ"
                 className={classes.faqBtn}
@@ -419,8 +419,53 @@ export default function Homepage() {
               </p>
               <img src={img4} alt="img4" className={classes.img4} />
             </div>
-            <div className="col-md-6">
-              <TheDropdown />
+            <div className={`col-md-6 ${classes.faqRow}`} {...props}>
+              <h4>
+                What Are The Taxes On Buy And Sell?{" "}
+                <span
+                  className={`material-symbols-outlined ${classes.arrowIcon}`}
+                  {...props}
+                >
+                  expand_less
+                </span>
+              </h4>
+
+              <p className={classes.faqPara2}>
+                X Market Marker offers a comprehensive set of features tailored
+                for market participants. Its core functionalities include
+                real-time pricing, liquidity provisio, and order book management
+              </p>
+              <hr className={classes.hrule} />
+              <h4>
+                How Is XMM Different From Others?{" "}
+                <span
+                  className={`material-symbols-outlined ${classes.arrowIcon}`}
+                  {...props}
+                >
+                  expand_more
+                </span>
+              </h4>
+              <hr className={classes.hrule} />
+              <h4>
+                How Can I Buy?{" "}
+                <span
+                  className={`material-symbols-outlined ${classes.arrowIcon}`}
+                  {...props}
+                >
+                  expand_more
+                </span>
+              </h4>
+              <hr className={classes.hrule} />
+              <h4>
+                How Do I Invest In Your Company?{" "}
+                <span
+                  className={`material-symbols-outlined ${classes.arrowIcon}`}
+                  {...props}
+                >
+                  expand_more
+                </span>
+              </h4>
+              <hr className={classes.hrule} />
             </div>
           </div>
         </div>

@@ -2,16 +2,6 @@ import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 
 export default function TheDropdown() {
-  //   const [isOpen, setIsOpen] = React.useState(false);
-  //   return (
-  //     <div>
-  //       <button onClick={() => setIsOpen((prev) => !prev)}>
-  //         Dropdown
-  //         {!isOpen ? (
-  //         )}
-  //       </button>
-  //     </div>
-  //   );
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">

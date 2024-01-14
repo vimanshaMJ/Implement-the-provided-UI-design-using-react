@@ -320,7 +320,23 @@ span {
   height: 1000px;
   padding: 100px;
 }
+.faqRow {
+  padding: 0 5%;
+}
 
-.faqpara1 {
-  display: inline-flex;
+.faqPara1 {
+  display: flex;
+  padding-right: 100px;
+}
+.faqPara2 {
+  padding-right: 10%;
+}
+.img4 {
+  margin: 5% 25% 0 0;
+}
+.arrowIcon {
+  margin-left: 20px;
+}
+.hrule {
+  color: #baa5ff;
 }
