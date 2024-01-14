@@ -2,9 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import classes from "./Navbar.module.css";
-import logo from "../Images/logo.png";
-import PrimaryButton from "./PrimaryButton";
+import classes from "./Footer.module.css";
+import logo from "../Images/logo-2.png";
 
 export default function TheNavbar() {
   return (
@@ -15,7 +14,7 @@ export default function TheNavbar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto">
+          <Nav className="ms-auto">
             <Nav.Link href="#home" className={classes.text}>
               Home
             </Nav.Link>
@@ -32,9 +31,6 @@ export default function TheNavbar() {
               FAQ
             </Nav.Link>
           </Nav>
-          <Nav.Link href="#btn">
-            <PrimaryButton buttonText="Buy Token" />
-          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
