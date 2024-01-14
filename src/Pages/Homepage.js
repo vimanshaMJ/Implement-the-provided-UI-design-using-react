@@ -8,6 +8,7 @@ import img1 from "../Images/image-1.png";
 import img2 from "../Images/image-2.png";
 import img3 from "../Images/image-3.png";
 import img4 from "../Images/image-4.png";
+import img5 from "../Images/image-5.png";
 import downArrow from "../Images/down-arrow.png";
 import cardImg1 from "../Images/card-img-1.png";
 import cardImg2 from "../Images/card-img-2.png";
@@ -471,8 +472,18 @@ export default function Homepage({ ...props }) {
       </div>
       <div className={classes.seventhContainer}>
         <div className={`container ${classes.middleContainer}`} {...props}>
-          <div className="row">
-            <div className="col"></div>
+          <div className="row" style={{ border: "solid" }}>
+            <div className="col-lg-4" style={{ border: "solid" }}>
+              <p>
+                X Market Marker offers a comprehensive set of features tailored
+                for market participants. Its core functionalities include
+                real-time pricing, liquidity provisio, and order book
+                management.
+              </p>
+              <img src={img5} alt="img5" className={classes.img5}></img>
+            </div>
+            <div className="col-lg-4" style={{ border: "solid" }}></div>
+            <div className="col-lg-4" style={{ border: "solid" }}></div>
           </div>
         </div>
       </div>
