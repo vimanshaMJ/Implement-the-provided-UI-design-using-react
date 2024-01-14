@@ -23,6 +23,7 @@ import skai from "../Images/skai.png";
 import oracle from "../Images/oracle.png";
 import ebay from "../Images/ebay.png";
 import TheDropdown from "../Components/DropDown";
+import Footer from "../Components/Footer";
 
 export default function Homepage({ ...props }) {
   return (
@@ -495,6 +496,11 @@ export default function Homepage({ ...props }) {
               />
             </div>
           </div>
+        </div>
+      </div>
+      <div className={classes.footer}>
+        <div className="container">
+          <Footer />
         </div>
       </div>
     </div>

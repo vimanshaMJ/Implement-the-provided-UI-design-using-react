@@ -374,3 +374,12 @@ span {
   font-size: large;
   font-weight: 500;
 }
+
+.footer {
+  background-image: linear-gradient(
+    to left,
+    #010b51 0%,
+    #12082e 45%,
+    #000319 100%
+  );
+}
