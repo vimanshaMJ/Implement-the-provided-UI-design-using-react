@@ -234,7 +234,6 @@ export default function Homepage({ ...props }) {
           </div>
         </div>
       </div>
-
       <div className={classes.fourthContainer}>
         <div className="container">
           <div className="row justify-content-center">
@@ -467,6 +466,13 @@ export default function Homepage({ ...props }) {
               </h4>
               <hr className={classes.hrule} />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className={classes.seventhContainer}>
+        <div className={`container ${classes.middleContainer}`} {...props}>
+          <div className="row">
+            <div className="col"></div>
           </div>
         </div>
       </div>

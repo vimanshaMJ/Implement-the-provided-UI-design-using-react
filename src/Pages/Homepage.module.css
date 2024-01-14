@@ -317,8 +317,7 @@ span {
     #12082e 45%,
     #000319 100%
   );
-  height: 1000px;
-  padding: 100px;
+  padding: 100px 0;
 }
 .faqRow {
   padding: 0 5%;
@@ -339,4 +338,19 @@ span {
 }
 .hrule {
   color: #baa5ff;
+}
+
+.seventhContainer {
+  background-image: linear-gradient(
+    to left,
+    #010b51 0%,
+    #12082e 45%,
+    #000319 100%
+  );
+  padding: 100px 0;
+}
+.middleContainer {
+  background-color: #7349ff;
+  padding: 5% 0;
+  border-radius: 20px;
 }
