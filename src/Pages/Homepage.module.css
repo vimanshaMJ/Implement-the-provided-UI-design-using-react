@@ -277,7 +277,7 @@ span {
     #12082e 45%,
     #000319 100%
   );
-  height: 1000px;
+  padding-bottom: 50px;
 }
 .tokenmicsBtn {
   margin-top: 60px;
