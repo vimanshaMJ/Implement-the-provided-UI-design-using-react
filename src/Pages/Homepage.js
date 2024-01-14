@@ -400,6 +400,25 @@ export default function Homepage() {
           </div>
         </div>
       </div>
+      <div className={classes.sixthContainer}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <SecondaryActionButton
+                buttonText="FAQ"
+                className={classes.faqBtn}
+              />
+              <h1>
+                Frequently Asked <br /> Questions
+              </h1>
+              <p className={classes.faqPara1}>
+                The main advantage of supporting $XMM is the project is focused
+                on creating Volume and Market Making through.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
