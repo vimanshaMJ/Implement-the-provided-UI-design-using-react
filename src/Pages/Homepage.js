@@ -9,6 +9,7 @@ import img2 from "../Images/image-2.png";
 import img3 from "../Images/image-3.png";
 import img4 from "../Images/image-4.png";
 import img5 from "../Images/image-5.png";
+import img6 from "../Images/image-6.png";
 import downArrow from "../Images/down-arrow.png";
 import cardImg1 from "../Images/card-img-1.png";
 import cardImg2 from "../Images/card-img-2.png";
@@ -473,19 +474,26 @@ export default function Homepage({ ...props }) {
       <div className={classes.seventhContainer}>
         <div className={`container ${classes.middleContainer}`} {...props}>
           <div className="row">
-            <div className="col-lg-5">
+            <div className="col-md-5">
               <p className={classes.lastPara}>
                 X Market Marker offers a comprehensive set of features tailored
                 for market participants. Its core functionalities include
                 real-time pricing, liquidity provisio, and order book
                 management.
               </p>
-              <img src={img5} alt="img5" className={classes.img5}></img>
+              <img src={img5} alt="img5" className={classes.img5} />
             </div>
-            <div className="col-lg-3 d-grid align-items-center">
+            <div className="col-md-4 d-grid align-items-center">
               <h1 className={classes.joinCommunity}>Join The Community</h1>
             </div>
-            <div className="col-lg-4"></div>
+            <div className="col-md-3 d-grid align-items-center">
+              <img src={img6} alt="img6" className={classes.img6} />
+              <br />
+              <PrimaryButton
+                buttonText="Join Telegram"
+                className={classes.actionBtn3}
+              />
+            </div>
           </div>
         </div>
       </div>
