@@ -22,6 +22,9 @@ import pinksale from "../Images/pinksale.png";
 import skai from "../Images/skai.png";
 import oracle from "../Images/oracle.png";
 import ebay from "../Images/ebay.png";
+import linkedin from "../Images/linkedin.png";
+import instagram from "../Images/instagram.png";
+import telegram from "../Images/telegram.png";
 import TheDropdown from "../Components/DropDown";
 import Footer from "../Components/Footer";
 
@@ -499,8 +502,33 @@ export default function Homepage({ ...props }) {
         </div>
       </div>
       <div className={classes.footer}>
+        <Footer />
         <div className="container">
-          <Footer />
+          <div className="row">
+            <div className="col-6">
+              <p>copyright ©azad 2023</p>
+            </div>
+            <div
+              className={`col-6 d-flex justify-content-end ${classes.lastCol}`}
+              {...props}
+            >
+              <img
+                src={linkedin}
+                alt="linkedin"
+                className={classes.socialIcon}
+              />
+              <img
+                src={instagram}
+                alt="instagram"
+                className={classes.socialIcon}
+              />
+              <img
+                src={telegram}
+                alt="telegram"
+                className={classes.socialIcon}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
