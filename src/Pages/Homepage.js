@@ -7,6 +7,7 @@ import dummy from "../Images/dummy-contact.jpeg";
 import img1 from "../Images/image-1.png";
 import img2 from "../Images/image-2.png";
 import img3 from "../Images/image-3.png";
+import img4 from "../Images/image-4.png";
 import downArrow from "../Images/down-arrow.png";
 import cardImg1 from "../Images/card-img-1.png";
 import cardImg2 from "../Images/card-img-2.png";
@@ -19,6 +20,7 @@ import pinksale from "../Images/pinksale.png";
 import skai from "../Images/skai.png";
 import oracle from "../Images/oracle.png";
 import ebay from "../Images/ebay.png";
+import TheDropdown from "../Components/DropDown";
 
 export default function Homepage() {
   return (
@@ -415,6 +417,10 @@ export default function Homepage() {
                 The main advantage of supporting $XMM is the project is focused
                 on creating Volume and Market Making through.
               </p>
+              <img src={img4} alt="img4" className={classes.img4} />
+            </div>
+            <div className="col-md-6">
+              <TheDropdown />
             </div>
           </div>
         </div>
