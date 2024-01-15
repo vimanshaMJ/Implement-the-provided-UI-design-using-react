@@ -69,15 +69,15 @@
     width: 40%;
   }
   .dummyContact1 {
-    top: 63%;
+    top: 61%;
     left: 30%;
   }
   .dummyContact2 {
-    top: 63%;
+    top: 61%;
     left: 33%;
   }
   .dummyContact3 {
-    top: 63%;
+    top: 61%;
     left: 36%;
   }
 }
@@ -220,7 +220,7 @@
     padding: 0;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .img2 {
     width: 50%;
   }
