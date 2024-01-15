@@ -304,22 +304,25 @@ export default function Homepage({ ...props }) {
             </div>
           </div>
           <div className="row">
-            <div className={classes.liqudity}>
-              <h3 className={classes.tokenomicsTpic}>LIQUIDITY</h3>
-              <p>
-                Token investments strategies involve various approaches for
-                individuals and organizationas to make informed decisions when
-                buying and holding cryptocurrencies or blockchain tokens.
-              </p>
-            </div>
-            <img src={img3} alt="img3" className={classes.img3}></img>
-            <div className={classes.marketing}>
-              <h3 className={classes.tokenomicsTpic}>MARKETING</h3>
-              <p>
-                Token investments strategies involve various approaches for
-                individuals and organizationas to make informed decisions last
-                moment.
-              </p>
+            <div className="col">
+              <img src={img3} alt="img3" className={classes.img3}></img>
+              <div className={classes.liqudity}>
+                <h3 className={classes.tokenomicsTpic}>LIQUIDITY</h3>
+                <p>
+                  Token investments strategies involve various approaches for
+                  individuals and organizationas to make informed decisions when
+                  buying and holding cryptocurrencies or blockchain tokens.
+                </p>
+              </div>
+
+              <div className={classes.marketing}>
+                <h3 className={classes.tokenomicsTpic}>MARKETING</h3>
+                <p>
+                  Token investments strategies involve various approaches for
+                  individuals and organizationas to make informed decisions last
+                  moment.
+                </p>
+              </div>
             </div>
           </div>
           <div className="row justify-content-center">

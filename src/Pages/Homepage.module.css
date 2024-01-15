@@ -494,7 +494,7 @@
   margin-bottom: 120px;
 }
 .liqudity {
-  padding-left: 3.5%;
+  padding-left: 3%;
   padding-right: 70%;
 }
 .tokenomicsTpic {
@@ -507,13 +507,68 @@
 }
 .img3 {
   position: absolute;
-  left: 35%;
-  width: 400px;
+  left: 36%;
+  width: 350px;
   border-radius: 40%;
 }
 .buybacks {
   padding-right: 53%;
-  margin-top: -5%;
+  margin-top: -8%;
+}
+@media (max-width: 1400px) {
+  .img3 {
+    width: 320px;
+  }
+}
+@media (max-width: 1200px) {
+  .marketing {
+    padding-left: 70%;
+    padding-right: 0;
+  }
+  .buybacks {
+    padding-right: 50%;
+    margin-top: -18%;
+  }
+}
+@media (max-width: 992px) {
+  .img3 {
+    position: inherit;
+    width: 300px;
+  }
+  .liqudity {
+    padding: 0;
+    margin: 0;
+  }
+  .marketing {
+    padding: 0;
+  }
+  .buybacks {
+    padding: 0;
+    margin-top: -5%;
+  }
+}
+@media (max-width: 768px) {
+  .tokenmicsBtn {
+    margin-top: 60px;
+    margin-left: 40%;
+  }
+}
+@media (max-width: 576px) {
+  .tokenText1 {
+    text-align: center;
+  }
+  .tokenText2 {
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: normal;
+  }
+  .img3 {
+    width: 250px;
+  }
+  .tokenmicsBtn {
+    width: auto;
+    margin: 60px 35% 0 35%;
+  }
 }
 
 .sixthContainer {
