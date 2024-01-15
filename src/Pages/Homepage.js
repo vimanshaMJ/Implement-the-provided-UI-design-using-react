@@ -512,21 +512,29 @@ export default function Homepage({ ...props }) {
               className={`col-6 d-flex justify-content-end ${classes.lastCol}`}
               {...props}
             >
-              <img
-                src={linkedin}
-                alt="linkedin"
-                className={classes.socialIcon}
-              />
-              <img
-                src={instagram}
-                alt="instagram"
-                className={classes.socialIcon}
-              />
-              <img
-                src={telegram}
-                alt="telegram"
-                className={classes.socialIcon}
-              />
+              <a href="https://lk.linkedin.com/">
+                <img
+                  src={linkedin}
+                  alt="linkedin"
+                  className={classes.socialIcon}
+                />
+              </a>
+
+              <a href="https://www.instagram.com/">
+                <img
+                  src={instagram}
+                  alt="instagram"
+                  className={classes.socialIcon}
+                />
+              </a>
+
+              <a href="https://telegram.org/">
+                <img
+                  src={telegram}
+                  alt="telegram"
+                  className={classes.socialIcon}
+                />
+              </a>
             </div>
           </div>
         </div>
