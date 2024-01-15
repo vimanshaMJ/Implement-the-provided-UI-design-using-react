@@ -1,17 +1,27 @@
 import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
+import classes from "./DropDown.module.css";
 
-export default function TheDropdown() {
+export default function TheDropdown({
+  dropdownTitle,
+  description,
+  classname,
+  ...props
+}) {
   return (
     <Dropdown>
-      <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Dropdown Button
+      <Dropdown.Toggle
+        className={classes.dropdownToggle}
+        variant="primary"
+        id="dropdown-basic"
+      >
+        {dropdownTitle}
       </Dropdown.Toggle>
 
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      <Dropdown.Menu className={classes.dropdownMenu}>
+        <Dropdown.Item className={classes.dropdownItem} href="#/action-1">
+          {description}
+        </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );
