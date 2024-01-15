@@ -97,45 +97,50 @@ export default function Homepage({ ...props }) {
       </div>
       <div className={classes.secondContainer}>
         <div className="container">
-          <div className="row">
+          <div className="row ">
             <div className="col-lg-6 col-md-12">
               <img src={img2} alt="down-arrow" className={classes.img2} />
             </div>
-            <div
-              className="col-lg-6 col-md-12"
-              style={{
-                alignSelf: "center",
-                padding: "0 60px",
-              }}
-            >
-              <SecondaryActionButton buttonText="ABOUT US" />
-              <h1>Best Ever Token Designed For Remarkable Success</h1>
-              <p className={classes.paragraph1}>
+            <div className={`col-lg-6 col-md-12 ${classes.aboutUsCol}`}>
+              <SecondaryActionButton
+                className={classes.aboutBtn}
+                buttonText="ABOUT US"
+              />
+              <h1 className={classes.aboutUsTitle}>
+                Best Ever Token Designed For Remarkable Success
+              </h1>
+              <p className={classes.aboutUsPara}>
                 The main advantage of supporting $XMM is the project is focused
                 on creating Volume and Market Making through. XMM empowers
                 businesses to creative dynamic content target specific
               </p>
               <div className="container">
-                <div className="row">
-                  <div className="col-4">
+                <div className={`row ${classes.checkBoxRow}`}>
+                  <div className="col-sm-4">
                     <h5>
-                      <span className="material-symbols-outlined">
+                      <span
+                        className={`material-symbols-outlined ${classes.checkBox}`}
+                      >
                         select_check_box
                       </span>
                       Market
                     </h5>
                   </div>
-                  <div className="col-4">
+                  <div className="col-sm-4">
                     <h5>
-                      <span className="material-symbols-outlined">
+                      <span
+                        className={`material-symbols-outlined ${classes.checkBox}`}
+                      >
                         select_check_box
                       </span>
                       Volume
                     </h5>
                   </div>
-                  <div className="col-4">
+                  <div className="col-sm-4">
                     <h5>
-                      <span className="material-symbols-outlined">
+                      <span
+                        className={`material-symbols-outlined ${classes.checkBox}`}
+                      >
                         select_check_box
                       </span>
                       Trend
@@ -143,8 +148,7 @@ export default function Homepage({ ...props }) {
                   </div>
                 </div>
               </div>
-
-              <div className="col-4">
+              <div className="col-lg-4 col-sm-12">
                 <PrimaryButton
                   buttonText="Read Whitepaper"
                   className={classes.actionBtn2}
