@@ -106,7 +106,7 @@ export default function Homepage({ ...props }) {
                 className={classes.aboutBtn}
                 buttonText="ABOUT US"
               />
-              <h1 className={classes.aboutUsTitle}>
+              <h1 className={classes.mainTitle}>
                 Best Ever Token Designed For Remarkable Success
               </h1>
               <p className={classes.aboutUsPara}>
@@ -162,8 +162,11 @@ export default function Homepage({ ...props }) {
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
-              <SecondaryActionButton buttonText="FEATURES" />
-              <h1>Features Of X MARKET MARKER</h1>
+              <SecondaryActionButton
+                className={classes.featuresBtn}
+                buttonText="FEATURES"
+              />
+              <h1 className={classes.mainTitle}>Features Of X MARKET MARKER</h1>
               <p className={classes.featureText}>
                 X Market Marker offers a comphehensive set of features tailorde
                 for market participants. Its core functionalities include
@@ -172,13 +175,7 @@ export default function Homepage({ ...props }) {
             </div>
             <div className="col-lg-8">
               <div className="row justify-content-center">
-                <div
-                  className="col-md-4 col-sm-6"
-                  style={{
-                    border: "solid 0.1px",
-                    borderColor: "#1f2238",
-                  }}
-                >
+                <div className={`col-md-4 col-sm-6 ${classes.cardCol}`}>
                   <div className={classes.card1}>
                     <h5>01</h5>
                     <h5>Benifits For Holders</h5>
@@ -195,13 +192,7 @@ export default function Homepage({ ...props }) {
                     </p>
                   </div>
                 </div>
-                <div
-                  className="col-md-4 col-sm-6"
-                  style={{
-                    border: "solid 0.1px",
-                    borderColor: "#1f2238",
-                  }}
-                >
+                <div className={`col-md-4 col-sm-6 ${classes.cardCol}`}>
                   <div className={classes.card2}>
                     <h5>02</h5>
                     <h5>Biggest Community</h5>
@@ -217,13 +208,7 @@ export default function Homepage({ ...props }) {
                     </p>
                   </div>
                 </div>
-                <div
-                  className="col-md-4 col-sm-6"
-                  style={{
-                    border: "solid 0.1px",
-                    borderColor: "#1f2238",
-                  }}
-                >
+                <div className={`col-md-4 col-sm-6 ${classes.cardCol}`}>
                   <div className={classes.card3}>
                     <h5>03</h5>
                     <h5>Ecosystem - Redefined</h5>

@@ -227,7 +227,7 @@
   .aboutUsCol {
     padding: 10% 0;
   }
-  .aboutUsTitle,
+  .mainTitle,
   .aboutUsPara {
     text-align: center;
   }
@@ -243,19 +243,19 @@
   }
 }
 @media (max-width: 784px) {
-  .aboutUsTitle,
+  .mainTitle,
   .aboutUsPara {
     padding: 0 5%;
   }
 }
 @media (max-width: 768px) {
-  .aboutUsTitle,
+  .mainTitle,
   .aboutUsPara {
     padding: 0;
   }
 }
 @media (max-width: 576px) {
-  .aboutUsTitle,
+  .mainTitle,
   .aboutUsPara {
     padding: 0 5%;
   }
@@ -264,7 +264,7 @@
   }
   .aboutBtn {
     text-align: center;
-    width: 28%;
+    width: auto;
     margin: 0 35%;
   }
 }
@@ -283,6 +283,10 @@
   font-size: large;
   padding-top: 30%;
   padding-right: 28%;
+}
+.cardCol {
+  border: solid 0.1px;
+  border-color: #1f2238;
 }
 .card1 {
   padding: 10px 10px;
@@ -307,6 +311,62 @@
   display: inline-flex;
   font-size: small;
   padding-right: 18%;
+}
+@media (max-width: 1400px) {
+  .featureText {
+    padding-top: 20%;
+    padding-right: 18%;
+  }
+}
+@media (max-width: 1200px) {
+  .featureText {
+    padding-right: 15%;
+  }
+  .cardImg {
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+  }
+  .cardText {
+    padding-right: 10%;
+  }
+}
+@media (max-width: 992px) {
+  .thirdContainer {
+    padding-top: 20px;
+  }
+  .featuresBtn {
+    margin: 0 40%;
+  }
+  .featureText {
+    padding-top: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  .cardText {
+    padding-right: 0;
+  }
+}
+@media (max-width: 575px) {
+  .cardImg {
+    margin-top: 0;
+    margin-right: 5%;
+    width: 100px;
+    height: 100px;
+  }
+  .cardText {
+    display: flex;
+    padding: 0 10%;
+  }
+  .featuresBtn {
+    width: auto;
+    margin: 0 35%;
+  }
+}
+@media (max-width: 450px) {
+  .cardText {
+    padding: 0 5%;
+  }
 }
 
 .fourthContainer {
