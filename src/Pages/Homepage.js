@@ -237,112 +237,52 @@ export default function Homepage({ ...props }) {
           </div>
           <div className="container justify-content-center">
             <div className="row justify-content-center">
-              <div
-                className="col-md-3 col-sm-4"
-                style={{
-                  border: "solid 3px",
-                  borderColor: "#1f2238",
-                  borderTop: "none",
-                  borderLeft: "none",
-                }}
-              >
+              <div className={`col-md-3 col-sm-4 ${classes.imageCol1}`}>
                 <img
                   src={dexview}
                   alt="dexview"
                   className={classes.partnerImg}
                 ></img>
               </div>
-              <div
-                className="col-md-3"
-                style={{
-                  border: "solid 3px",
-                  borderColor: "#1f2238",
-                  borderTop: "none",
-                  borderLeft: "none",
-                }}
-              >
+              <div div className={`col-md-3 col-sm-4 ${classes.imageCol2}`}>
                 <img
                   src={amazon}
                   alt="amazon"
                   className={classes.partnerImg}
                 ></img>
               </div>
-              <div
-                className="col-md-3"
-                style={{
-                  border: "solid 3px",
-                  borderColor: "#1f2238",
-                  borderTop: "none",
-                  borderLeft: "none",
-                }}
-              >
+              <div className={`col-md-3 col-sm-4 ${classes.imageCol3}`}>
                 <img
                   src={perrigo}
                   alt="perrigo"
                   className={classes.partnerImg}
                 ></img>
               </div>
-              <div
-                className="col-md-3"
-                style={{
-                  border: "solid 3px",
-                  borderColor: "#1f2238",
-                  borderTop: "none",
-                  borderLeft: "none",
-                  borderRight: "none",
-                }}
-              >
+              <div className={`col-md-3 col-sm-4 ${classes.imageCol4}`}>
                 <img
                   src={molex}
                   alt="molex"
                   className={classes.partnerImg}
                 ></img>
               </div>
-              <div
-                className="col-md-3"
-                style={{
-                  border: "solid 3px",
-                  borderColor: "#1f2238",
-                  borderTop: "none",
-                  borderBottom: "none",
-                  borderLeft: "none",
-                }}
-              >
+              <div className={`col-md-3 col-sm-4 ${classes.imageCol5}`}>
                 <img
                   src={pinksale}
                   alt="pinksale"
                   className={classes.partnerImg}
                 ></img>
               </div>
-              <div
-                className="col-md-3"
-                style={{
-                  border: "solid 3px",
-                  borderColor: "#1f2238",
-                  borderTop: "none",
-                  borderBottom: "none",
-                  borderLeft: "none",
-                }}
-              >
+              <div className={`col-md-3 col-sm-4 ${classes.imageCol6}`}>
                 <img src={skai} alt="skai" className={classes.partnerImg}></img>
               </div>
-              <div
-                className="col-md-3"
-                style={{
-                  border: "solid 3px",
-                  borderColor: "#1f2238",
-                  borderTop: "none",
-                  borderBottom: "none",
-                  borderLeft: "none",
-                }}
-              >
+              <div className={`col-md-3 col-sm-4 ${classes.imageCol7}`}>
                 <img
                   src={oracle}
                   alt="oracle"
                   className={classes.partnerImg}
                 ></img>
               </div>
-              <div className="col-md-3">
+              <div className={`col-md-3 col-sm-4 ${classes.imageCol8}`}>
                 <img src={ebay} alt="ebay" className={classes.partnerImg}></img>
               </div>
             </div>
