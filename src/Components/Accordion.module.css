@@ -1,0 +1,15 @@
+.accordionItem {
+  background-image: linear-gradient(to left, #010b51 0%, #12082e 100%);
+  border: none;
+}
+.accordionHeader {
+  font-size: 3rem;
+}
+.accordionBody {
+  color: white;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.accordion-button {
+  font-size: 3rem;
+}
