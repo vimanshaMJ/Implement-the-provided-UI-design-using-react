@@ -25,8 +25,8 @@ import ebay from "../Images/ebay.png";
 import linkedin from "../Images/linkedin.png";
 import instagram from "../Images/instagram.png";
 import telegram from "../Images/telegram.png";
-import TheDropdown from "../Components/DropDown";
 import Footer from "../Components/Footer";
+import TheAccordion from "../Components/Accordion";
 
 export default function Homepage({ ...props }) {
   return (
@@ -357,38 +357,7 @@ export default function Homepage({ ...props }) {
               <img src={img4} alt="img4" className={classes.img4} />
             </div>
             <div className={`col-md-6 ${classes.faqRow}`} {...props}>
-              <TheDropdown
-                classname={classes.dropdown}
-                dropdownTitle={"What Are The Taxes On Buy And Sell?"}
-                description={
-                  "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquidity provisio, and order book management"
-                }
-              />
-              <hr className={classes.hrule} />
-              <TheDropdown
-                classname={classes.dropdown}
-                dropdownTitle={"How Is XMM Different From Others?"}
-                description={
-                  "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquidity provisio, and order book management"
-                }
-              />
-              <hr className={classes.hrule} />
-              <TheDropdown
-                classname={classes.dropdown}
-                dropdownTitle={"How Can I Buy?"}
-                description={
-                  "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquidity provisio, and order book management"
-                }
-              />
-              <hr className={classes.hrule} />
-              <TheDropdown
-                classname={classes.dropdown}
-                dropdownTitle={"How Do I Invest In Your Company?"}
-                description={
-                  "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquidity provisio, and order book management"
-                }
-              />
-              <hr className={classes.hrule} />
+              <TheAccordion />
             </div>
           </div>
         </div>
