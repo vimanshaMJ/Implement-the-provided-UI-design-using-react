@@ -391,12 +391,13 @@ export default function Homepage({ ...props }) {
       <div className={classes.footer}>
         <Footer />
         <div className="container">
+          <div className="row"></div>
           <div className="row">
-            <div className="col-6">
-              <p>copyright ©azad 2023</p>
+            <div className={`col-sm-6 ${classes.copyrightCol}`}>
+              <p className={classes.copyright}>copyright ©azad 2023</p>
             </div>
             <div
-              className={`col-6 d-flex justify-content-end ${classes.lastCol}`}
+              className={`col-sm-6 d-flex justify-content-end ${classes.lastCol}`}
               {...props}
             >
               <a href="https://lk.linkedin.com/">

@@ -10,3 +10,14 @@
 .text:hover {
   color: #7349ff;
 }
+
+@media (max-width: 768px) {
+  .navbarToggle {
+    background-color: #7349ff;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 5% 0;
+  }
+}

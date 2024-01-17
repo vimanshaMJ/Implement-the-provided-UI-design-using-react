@@ -12,7 +12,10 @@ export default function TheNavbar() {
         <Navbar.Brand href="#logo">
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className={classes.navbarToggle}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className={classes.text}>
