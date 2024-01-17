@@ -679,6 +679,9 @@
     width: 40% !important;
     height: 50%;
   }
+  .img4 {
+    margin: 0;
+  }
 }
 
 .footer {
