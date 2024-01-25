@@ -1,5 +1,5 @@
 .accordionItem {
-  background-image: linear-gradient(to left, #010b51 0%, #12082e 100%);
+  background-color: transparent;
   border: none;
 }
 .accordionHeader {
@@ -7,9 +7,37 @@
 }
 .accordionBody {
   color: white;
-  text-align: left;
+  text-align: justify;
   font-family: "Montserrat", sans-serif;
+  padding-left: 0;
+  padding-right: 80px;
 }
-.accordion-button {
-  font-size: 3rem;
+.accordionItem button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  padding-left: 0;
+}
+.accordionItem button:hover {
+  background-color: transparent;
+  color: white;
+}
+.accordionItem button:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+.accordionItem button:not(.collappsed) {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+}
+.accordionItem button:not(.collapsed)::after {
+  color: white !important;
+}
+
+hr {
+  border: 1px solid white;
+  width: 100%;
+  margin: 5% 0;
 }

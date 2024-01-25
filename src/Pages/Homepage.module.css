@@ -585,12 +585,12 @@
 }
 
 .faqPara1 {
-  display: flex;
   padding-right: 100px;
 }
 
 .img4 {
-  margin: 5% 25% 0 0;
+  width: auto;
+  margin: 0% 25% 0 0;
 }
 
 .hrule {

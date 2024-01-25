@@ -342,28 +342,26 @@ export default function Homepage({ ...props }) {
       <div className={classes.sixthContainer}>
         <div className="container">
           <div className="row">
-            <div className={`col-md-6 ${classes.faqRow}`} {...props}>
+            <div className={`col-md-6 ${classes.faqRow}`}>
               <SecondaryActionButton
                 buttonText="FAQ"
                 className={classes.faqBtn}
               />
-              <h1>
-                Frequently Asked <br /> Questions
-              </h1>
+              <h1 className={classes.faqTitle}>Frequently Asked Questions</h1>
               <p className={classes.faqPara1}>
                 The main advantage of supporting $XMM is the project is focused
                 on creating Volume and Market Making through.
               </p>
               <img src={img4} alt="img4" className={classes.img4} />
             </div>
-            <div className={`col-md-6 ${classes.faqRow}`} {...props}>
+            <div className={`col-md-6 ${classes.faqRow}`}>
               <TheAccordion />
             </div>
           </div>
         </div>
       </div>
       <div className={classes.seventhContainer}>
-        <div className={`container ${classes.middleContainer}`} {...props}>
+        <div className={`container ${classes.middleContainer}`}>
           <div className="row">
             <div className="col-md-5">
               <p className={classes.lastPara}>

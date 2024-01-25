@@ -16,6 +16,9 @@ export default function TheAccordion() {
             pricing, liquid provision and order book management.
           </Accordion.Body>
         </Accordion.Item>
+
+        <hr />
+
         <Accordion.Item eventKey="1" className={classes.accordionItem}>
           <Accordion.Header className={classes.accordionHeader}>
             How Is XMM Different From Others?
@@ -26,6 +29,9 @@ export default function TheAccordion() {
             pricing, liquid provision and order book management.
           </Accordion.Body>
         </Accordion.Item>
+
+        <hr />
+
         <Accordion.Item eventKey="2" className={classes.accordionItem}>
           <Accordion.Header className={classes.accordionHeader}>
             How Can I Buy?
@@ -36,6 +42,9 @@ export default function TheAccordion() {
             pricing, liquid provision and order book management.
           </Accordion.Body>
         </Accordion.Item>
+
+        <hr />
+
         <Accordion.Item eventKey="3" className={classes.accordionItem}>
           <Accordion.Header className={classes.accordionHeader}>
             How Do I Invest In Your Company?
@@ -46,6 +55,8 @@ export default function TheAccordion() {
             pricing, liquid provision and order book management.
           </Accordion.Body>
         </Accordion.Item>
+
+        <hr />
       </Accordion>
     </div>
   );
