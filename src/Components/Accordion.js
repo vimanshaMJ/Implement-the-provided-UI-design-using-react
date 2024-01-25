@@ -3,61 +3,40 @@ import Accordion from "react-bootstrap/Accordion";
 import classes from "./Accordion.module.css";
 
 export default function TheAccordion() {
-  return (
-    <div>
-      <Accordion defaultActiveKey="0">
-        <Accordion.Item eventKey="0" className={classes.accordionItem}>
-          <Accordion.Header className={classes.accordionHeader}>
-            What Are The Taxes On Buy And Sell?
-          </Accordion.Header>
-          <Accordion.Body className={classes.accordionBody}>
-            X Market Marker offers a comprehensive set of features tailored for
-            market participants. Its core functionalities include real-time
-            pricing, liquid provision and order book management.
-          </Accordion.Body>
-        </Accordion.Item>
+  const accordionList = [
+    {
+      id: 1,
+      header: "What Are The Taxes On Buy And Sell?",
+      body: "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquid provision and order book management.",
+    },
+    {
+      id: 2,
+      header: "How Is XMM Different From Others?",
+      body: "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquid provision and order book management.",
+    },
+    {
+      id: 3,
+      header: "How Can I Buy?",
+      body: "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquid provision and order book management.",
+    },
+    {
+      id: 4,
+      header: "How Do I Invest In Your Company?",
+      body: "X Market Marker offers a comprehensive set of features tailored for market participants. Its core functionalities include real-time pricing, liquid provision and order book management.",
+    },
+  ];
 
-        <hr />
-
-        <Accordion.Item eventKey="1" className={classes.accordionItem}>
-          <Accordion.Header className={classes.accordionHeader}>
-            How Is XMM Different From Others?
-          </Accordion.Header>
-          <Accordion.Body className={classes.accordionBody}>
-            X Market Marker offers a comprehensive set of features tailored for
-            market participants. Its core functionalities include real-time
-            pricing, liquid provision and order book management.
-          </Accordion.Body>
-        </Accordion.Item>
-
-        <hr />
-
-        <Accordion.Item eventKey="2" className={classes.accordionItem}>
-          <Accordion.Header className={classes.accordionHeader}>
-            How Can I Buy?
-          </Accordion.Header>
-          <Accordion.Body className={classes.accordionBody}>
-            X Market Marker offers a comprehensive set of features tailored for
-            market participants. Its core functionalities include real-time
-            pricing, liquid provision and order book management.
-          </Accordion.Body>
-        </Accordion.Item>
-
-        <hr />
-
-        <Accordion.Item eventKey="3" className={classes.accordionItem}>
-          <Accordion.Header className={classes.accordionHeader}>
-            How Do I Invest In Your Company?
-          </Accordion.Header>
-          <Accordion.Body className={classes.accordionBody}>
-            X Market Marker offers a comprehensive set of features tailored for
-            market participants. Its core functionalities include real-time
-            pricing, liquid provision and order book management.
-          </Accordion.Body>
-        </Accordion.Item>
-
-        <hr />
-      </Accordion>
-    </div>
-  );
+  return accordionList.map((item) => (
+    <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey={item.id} className={classes.accordionItem}>
+        <Accordion.Header className={classes.accordionHeader}>
+          {item.header}
+        </Accordion.Header>
+        <Accordion.Body className={classes.accordionBody}>
+          {item.body}
+        </Accordion.Body>
+      </Accordion.Item>
+      <hr />
+    </Accordion>
+  ));
 }
