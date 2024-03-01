@@ -1,0 +1,28 @@
+.actionButton {
+  background-image: linear-gradient(
+    to right,
+    #de640d 0%,
+    #ffad06 51%,
+    #de640d 100%
+  );
+  background-color: #de640d;
+  margin: 20px 0;
+  width: 140px;
+  height: 50px;
+  border-radius: 60px;
+  color: white;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease-in-out;
+}
+.actionButton:hover {
+  transform: scale(1.1);
+  background-color: #de640d;
+  color: white !important;
+}
+
+@media (max-width: 480px) {
+  .actionButton {
+    width: 120px;
+  }
+}
