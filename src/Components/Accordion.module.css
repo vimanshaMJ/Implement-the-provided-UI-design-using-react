@@ -1,0 +1,49 @@
+.accordionItem {
+  background-color: transparent;
+  border: none;
+}
+.accordionHeader {
+  font-size: 3rem;
+}
+.accordionBody {
+  color: white;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0;
+  padding-right: 80px;
+}
+.accordionItem button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  padding-left: 0;
+}
+.accordionItem button:hover {
+  background-color: transparent;
+  color: white;
+}
+.accordionItem button:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+.accordionItem button:not(.collappsed) {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+}
+.accordionItem button:not(.collapsed)::after {
+  color: white !important;
+}
+
+hr {
+  border: 1px solid white;
+  width: 100%;
+  margin: 5% 0;
+}
+
+@media (max-width: 992px) {
+  .accordionItem button {
+    font-size: 1.2rem;
+  }
+}
